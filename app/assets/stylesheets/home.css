@@ -1,0 +1,32 @@
+/* 全体のボタンデザイン */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #3498db; /* プライマリボタンの背景色 */
+    color: white; /* テキストの色 */
+}
+
+.btn-primary:hover {
+    background-color: #2980b9; /* プライマリボタンのホバー時の背景色 */
+}
+
+.btn-danger {
+    background-color: #e74c3c; /* デリートボタンの背景色 */
+    color: white; /* テキストの色 */
+}
+
+.btn-danger:hover {
+    background-color: #c0392b; /* デリートボタンのホバー時の背景色 */
+}
